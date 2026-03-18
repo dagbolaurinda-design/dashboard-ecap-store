@@ -12,7 +12,7 @@ from dash.dash_table import DataTable
 ## Étape 2 — Charger et préparer les données
 
 
-df = pd.read_csv("C:/Users/dagbo/OneDrive/Dokumente/Master_1_ECAP/python/cours-m1-ecap/datasets/data.csv")
+df = pd.read_csv("data.csv")
 
 ## Garder uniquement les colonnes utiles ('CustomerID', 'Gender', 'Location', 
 # 'Product_Category', 'Quantity', 'Avg_Price', 'Transaction_Date', 'Month', 'Discount_pct').
@@ -397,6 +397,7 @@ def format_delta(value):
 
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div(
     [
