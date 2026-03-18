@@ -343,7 +343,7 @@ locations_options = [
     {"label": "Toutes les zones", "value": "all"}
 ] + [
     {"label": loc, "value": loc}
-    for loc in sorted(df["Location"].dropna().astype(str).unique())
+    for loc in sorted(df["Product Category"].dropna().astype(str).unique())
 ]
 
 # Les indicateurs
