@@ -124,8 +124,6 @@ def indicateur_du_mois(data, current_month= 12, freq= True, abbr= False):
         "delta": delta
     }
 
-
-
 print("CA total =", calculer_chiffre_affaire(df))
 
 top10_freq = frequence_meilleure_vente(df, top=10, ascending=True)
