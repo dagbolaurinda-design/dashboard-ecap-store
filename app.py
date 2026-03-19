@@ -435,7 +435,7 @@ last100_display = last100[[
 
 
 app = Dash(__name__)
-app = server
+server = app.server
 
 app.layout = html.Div(
     [
