@@ -439,7 +439,6 @@ server = app.server
 
 app.layout = html.Div(
     [
-
         # Barre du haut
         html.Div(
             children=[
@@ -551,7 +550,7 @@ app.layout = html.Div(
                             style={
                                 "width": "44%",
                                 "height": "380px",
-                                "marginTop": "-130px"
+                                "marginTop": "-123px"
                             }
                         ),
 
