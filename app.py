@@ -543,7 +543,7 @@ app.layout = html.Div(
                                     config={"displayModeBar": False},
                                     style={
                                         "width": "100%",
-                                        "height": "100%"
+                                        "height": "130%"
                                     }
                                 )
                             ],
@@ -570,7 +570,7 @@ app.layout = html.Div(
                                     id="table-last100",
                                     columns=[{"name": c, "id": c} for c in last100_display.columns],
                                     data=last100_display.to_dict("records"),
-                                    page_size=8,
+                                    page_size=6,
                                     sort_action="native",
                                     filter_action="native",
                                     style_table={
