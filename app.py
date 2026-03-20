@@ -549,7 +549,7 @@ app.layout = html.Div(
                             ],
                             style={
                                 "width": "44%",
-                                "height": "430px",
+                                "height": "-130px",
                                 "marginTop": "500px"
                             }
                         ),
